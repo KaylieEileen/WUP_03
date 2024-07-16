@@ -24,12 +24,13 @@ davisdata <- read.csv(file="UCDavis.csv")
 
 $H_A$: The average number drinks is different between at least two rows.
 
-#Methods
+# Methods
+
 In the data set davisdata Seat is a categorical variable, alcohol is numerical
 
 We try to predict alcohol ~ Seat sp we use the Numerical ~ Categorical helper file
 
-#Results
+# Results
 
 ## Descriptive Results 
 
@@ -44,7 +45,7 @@ Now add in boxplot
 basicCN + geom_boxplot()
 ```
 
-The boxplot shows 
+The boxplot shows the back seat has the highest consume of alcohol than in the front or middle seats 
 
 
 ### Numerical Summary 
