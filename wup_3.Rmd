@@ -54,7 +54,7 @@ The boxplot shows the back seat has the highest consume of alcohol than in the f
 favstats(alcohol~Seat,data=ucdavis1)
 ```
 
-The numerical summary shows that 
+The numerical summary shows that the backseat consumes about 55% of alcohol, the front consumes about 20% of alcohol and the middle is about 35% of alcohol. This means that the back seats consumes more alcohol than the front or middle seats.  
 
 
 ### Inferential Results 
