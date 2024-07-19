@@ -72,13 +72,16 @@ There is a difference in alcohol consumption on where people sit
 ```{r}
 basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='errorbar') + labs(title="Fancy notch boxplot \n with 2 lines")
 ```
-
+ 
+The graph shows that there are more students sitting in the back who drink alcohol compared to the front and middle row.  
 
 
 ```{r}
 plot(TukeyHSD(model1))
 ```
 
+The turkey model shows that there is a difference between sitting in the back than sitting in the frony or middle.    
+The back consumes more levels of alcohol than the front or middle.    
 
 ## Conclusions
 
