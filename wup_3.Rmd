@@ -84,5 +84,8 @@ The turkey model shows that there is a difference between sitting in the back th
 The back consumes more levels of alcohol than the front or middle.    
 
 ## Conclusions
-
+If there is a difference between the alcohol consumed between the row number you choose to sit in?  
+The GGplots show that the back row consumed more alcohol than the front or the middle.  
+The p-value was 0.000116 which is less than 0.05 so we reject the null hypothesis.   
+The tukey model showed that the level of the consumed alcohol was higher in the back row than the front or the middle.   
 
